@@ -5,7 +5,7 @@
 			<div class="row">
 				<div class="col-sm-4 col-sm-offset-1">
 					<div class="login-form"><!--login form-->
-						<h2>About Us</h2>
+						<h2>About You</h2>
 						<address>
 	    					<p>Company Name: Smartics</p>
 							<p>Address: Faculty of Engineering, University of Ruhuna.</p>
