@@ -43,7 +43,7 @@
                 <th>Action</th>
             </thead>
             <?php $delivered = $jim->getdeliveredorders(); ?>
-            <?php while($row = mysql_fetch_array($delivered)){ ?>
+            <?php while($row = mysqli_fetch_array($delivered)){ ?>
                 <tr>
                     <td class="text-center"><?php echo $row['dateDelivered']; ?></td>
                     <td><?php echo $row['name']; ?></td>
@@ -63,7 +63,7 @@
             <?php $paid = $jim->getpaidorders(); ?>
             <?php 
             require('db.php');
-            while($row = mysqli_fetch_array($conn, $paid)){ ?>
+            while($row = mysqli_fetch_array($paid)){ ?>
                 <tr>
                     <td class="text-center"><?php echo $row['dateDelivered']; ?></td>
                     <td><?php echo $row['name']; ?></td>
